@@ -11,7 +11,7 @@ export default function Form(){
         const mainData = {...data, id: nanoid()}
         axios
         .post(
-            'https://my-json-server.typicode.com/tundeojedirn/contacts-api-server/inquiries',
+            'https://my-json-server.typicode.com/tundeojediran/contacts-api-server/inquiries',
             mainData,
             { headers: { 'Content-Type': 'application/json' }}
          )

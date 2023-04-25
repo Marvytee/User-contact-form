@@ -1,0 +1,59 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(34deg, rgba(112,5,144,1) 0%, rgba(255,2,245,1) 100%);
+    position: relative;
+}
+form {
+    background-color: white;
+    width: 50%;
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    padding: 2%;
+    border-radius: 10px;
+}
+form > h1{
+    text-align: center;
+}
+form > h2 {
+    text-align: center;
+    color: rgba(112,5,144,1);
+}
+form > .error {
+    color: rgb(167, 13, 13);
+}
+form > div {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0;
+}
+form > div > label{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+form > div > input{
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid;
+}
+form > button {
+   padding: 12px;
+   background-color: rgb(211, 19, 211);
+   border: none;
+   width: 20%;
+   margin-left: 39%;
+   margin-top: 2%;
+   font-size: 18px;
+   border-radius: 20px;
+}
+form > button:hover{
+    color: white;
+}
